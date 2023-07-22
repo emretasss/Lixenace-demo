@@ -12,7 +12,7 @@
 - TailwindCSS
 - react-router
 - Ethers
-
+ 
 `BACKEND`
 - Hardhat
 - Ethers
