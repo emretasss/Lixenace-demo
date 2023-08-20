@@ -19,6 +19,8 @@ const main = async () => {
     tokenPrice
   );
 
+  
+
   await aceTokenContract.deployed();
   await tokenSaleContract.deployed();
   console.log("aceTokenContract address: ", aceTokenContract.address);
