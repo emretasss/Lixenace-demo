@@ -87,7 +87,7 @@ const SendEther = () => {
 
     sendTransaction();
   }
-
+   
   async function getBalance(address = currentAccount) {
     if (!address) {
       return;
