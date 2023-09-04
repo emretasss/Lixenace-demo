@@ -10,7 +10,6 @@ contract LotteryPool {
         uint256 endedTimeStamp;
     }
      
-    // map lottery address to lottery info
     mapping(address => lotteryStruct) public lotteriesMapping;
 
     uint256 public totalLotteries = 0;
