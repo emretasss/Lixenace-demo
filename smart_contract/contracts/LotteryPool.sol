@@ -51,6 +51,7 @@ contract LotteryPool {
         emit LotteryCreated(address(localLottery));
 
         // save lottery address
+
         lotteriesContractsAddresses.push(address(localLottery));
     }
 
