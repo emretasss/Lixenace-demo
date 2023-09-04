@@ -16,7 +16,7 @@ contract Transactions {
     }
 
     TransferStruct[] public transactions;
-
+      
     function addTransaction(address payable receiver, uint amount, string memory message) public {
         transactionCount += 1;
         transactions.push(TransferStruct(msg.sender, receiver, amount, message, block.timestamp));
