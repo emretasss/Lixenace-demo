@@ -9,7 +9,7 @@ contract LotteryPool {
         address manager;
         uint256 endedTimeStamp;
     }
-
+  
     // map lottery address to lottery info
     mapping(address => lotteryStruct) public lotteriesMapping;
 
