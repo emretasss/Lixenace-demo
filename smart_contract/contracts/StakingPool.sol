@@ -20,7 +20,7 @@ contract StakingPool {
     uint public totalInvested;
     uint public totalChange;
     mapping(address => bool) public changeClaimed;
-    
+     
     event NewInvestor (
         address investor
     );
@@ -45,7 +45,7 @@ contract StakingPool {
       totalInvested = address(this).balance;
       totalChange = address(this).balance % 32 ether;
     }
-
+      
     function getChange() external {
       require(finalized == true, 'not finalized');
       require(balances[msg.sender] > 0, 'not an investor');
