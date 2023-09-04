@@ -9,7 +9,7 @@ contract LotteryPool {
         address manager;
         uint256 endedTimeStamp;
     }
-  
+     
     // map lottery address to lottery info
     mapping(address => lotteryStruct) public lotteriesMapping;
 
@@ -29,6 +29,8 @@ contract LotteryPool {
         require(manager == msg.sender, "action requires Owner/manager");
         _;
     }
+
+
 
     function createLottery(uint256 _timeInMinutes) public {
         // create lottery instance & send the sender's address
