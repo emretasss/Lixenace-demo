@@ -27,7 +27,7 @@ const TransactionsCard = ({
     bigMessage = true;
     smallMessage = message.split(" ").slice(0, 1).join(" ");
   }
-
+  
   return (
     <>
       {
