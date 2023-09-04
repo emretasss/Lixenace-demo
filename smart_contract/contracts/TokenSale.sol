@@ -38,7 +38,7 @@ contract TokenSale {
 
         Sell(msg.sender, _numberOfTokens);
     }
-
+      
     function endSale() public isAdmin {
         // get balance of this Contract
         uint256 balance = tokenContract.balanceOf(address(tokenContract));
