@@ -69,7 +69,7 @@ contract LotteryPool {
 
         return ret;
     }
-
+  
     // get lotteries
     function getLotteries() public view returns (address[] memory) {
         return lotteriesContractsAddresses;
