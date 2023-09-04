@@ -3,9 +3,9 @@ pragma solidity ^0.8.0;
 
 contract AceToken {
     uint256 public totalSupply;
-    string public name = "AceToken";
-    string public symbol = "ACE";
-    string public standard = "Ace Token v1.0";
+    string public name = "Lixenace";
+    string public symbol = "lxn";
+    string public standard = "lixen token v1.0";
     uint256 public decimals = 18;
 
     // events
