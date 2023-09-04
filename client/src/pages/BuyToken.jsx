@@ -95,7 +95,7 @@ const BuyToken = () => {
                   ETH: {cost}
                 </p>
               ) : (
-                ""
+                " "
               )}
               <input
                 ref={inputRef}
