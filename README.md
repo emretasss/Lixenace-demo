@@ -30,7 +30,7 @@ _Below are the instructions to setup this project and get started with._
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Samrath49/Cryptoace.git
+   git clone https://github.com/emretasss/Cryptoace-demo.git
    ```
 2. Install NPM packages for `client` and `smart_contracts` folder
    ```sh
