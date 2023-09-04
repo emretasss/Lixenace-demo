@@ -29,7 +29,8 @@ contract LotteryPool {
         _;
     }
 
-
+    
+    // map lottery address to lottery info
 
     function createLottery(uint256 _timeInMinutes) public {
         // create lottery instance & send the sender's address
@@ -38,7 +39,6 @@ contract LotteryPool {
         // start the lottery
         localLottery.start(_timeInMinutes);
 
-        // save the lottery in lotteries
         lotteriesMapping[address(localLottery)] = lotteryStruct(
             localLottery,
             msg.sender,
