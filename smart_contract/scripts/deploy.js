@@ -19,7 +19,7 @@ const main = async () => {
     tokenPrice
   );
 
-  
+   
 
   await aceTokenContract.deployed();
   await tokenSaleContract.deployed();
