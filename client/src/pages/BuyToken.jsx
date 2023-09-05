@@ -59,7 +59,7 @@ const BuyToken = () => {
             </div>
           )}
         </div>
-
+ 
         <div className="bg-neutral-900 p-4 rounded-2xl font-raj font-medium text-slate-300 border-[1px] transition ease-in-out delay-[2ms] border-[#2c3849]  hover:border-[1px] select-none animate-fade-in-down hover:border-borderBg">
           <h3 className="pt-0 pb-2 antialiased text-lg">
             Token Price :{" "}
