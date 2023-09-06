@@ -79,6 +79,11 @@ const LotteryPool = () => {
     return Math.floor((timestamp - blockTimeStamp) / 60);
   };
 
+
+
+
+  
+
   return (
     <section className="flex-1 p-2 lg:p-10 md:p-4 bg-neutral-900">
       {/* first div */}
@@ -89,7 +94,7 @@ const LotteryPool = () => {
           </h2>
           {currentAccount && (
             <div className="flex">
-              <p className="text-slate-400 font-rubik">{balance}</p>
+              <p className="text-slate-400 font-rubik">{balance} </p>
               <Eth />
             </div>
           )}
@@ -126,7 +131,7 @@ const LotteryPool = () => {
                     <Link
                       to={`/lottery/${lottery.lotteryContract}`}
                       key={lottery.lotteryContract}
-                    >
+                    > 
                       {showActiveLottery && (
                         <div className="p-2 mt-2 rounded-2xl text-slate-200 border-[1px] transition ease-in-out delay-[2ms] border-[#2c3849] hover:border-[1px] select-none animate-fade-in-down hover:border-[#431981]">
                           <div className="flex justify-between">
